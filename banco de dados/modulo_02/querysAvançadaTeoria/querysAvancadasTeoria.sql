@@ -4,4 +4,4 @@ SELECT
   *
 FROM
   posts 
-  INNER JOIN autores  on posts.autor_id = autores.id
+  INNER JOIN autores  on posts.autor_id = autores.id;
