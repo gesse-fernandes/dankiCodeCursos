@@ -1,0 +1,15 @@
+yum install wget
+
+wget https://dev.mysql.com/get/mysql57-community-release-el7-9.noarch.rpm
+
+md5sum mysql57-community-release-el7-9.noarch.rpm
+
+rpm -ivh mysql57-community-release-el7-9.noarch.rpm
+
+Install MySQL Server by typing: sudo yum install mysql-server
+
+Start MySQL Server: sudo /sbin/service mysqld start
+
+sudo grep 'temporary password' /var/log/mysqld.log
+
+Secure MySQL server installation: sudo /usr/bin/mysql_secure_installation
