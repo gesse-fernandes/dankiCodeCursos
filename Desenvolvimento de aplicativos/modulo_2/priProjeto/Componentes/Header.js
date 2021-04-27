@@ -3,7 +3,9 @@ import {Text,View} from 'react-native';
 
 const Header = () => {
     return (
-        <Text> Ola arquivo Header.. </Text>
+        <View style = {{backgroundColor:'rgb(84,50,168)',padding:20}}>
+        <Text style= {{textAlign:'center',fontSize:30, color:'white'}}>App Música</Text>
+        </View>
     );
 }
 export default Header;
