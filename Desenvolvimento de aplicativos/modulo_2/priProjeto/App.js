@@ -7,6 +7,9 @@ export default class App extends React.Component {
   constructor(props)
   { 
     super(props);
+    //console.warn("Aqui é um aviso");
+    console.disableYellowBox = true;
+    
     this.mostrarTexto = true;
     this.mostrarBotao = true;
   }
