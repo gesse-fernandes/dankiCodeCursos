@@ -5,12 +5,13 @@ import {
     View,
     StyleSheet
 } from 'react-native';
+import styleExterno from "../styles.js";
 
 const Body = () => {
     return (
         <View>
         <View style= {styles.View}>
-        < Text  style={styles.textStyle}> Lorem ipsum dolor sit amet consectetur adipisicing elit.Quisquam quae deleniti illum maxime, aspernatur distinctio!Ducimus debitis non, voluptas id porro enim, eius vel, totam necessitatibus optio eos autem saepe.Lorem ipsum dolor sit amet consectetur adipisicing elit.Quisquam quae deleniti illum maxime, aspernatur distinctio!Ducimus debitis non, voluptas id porro enim, eius vel, totam necessitatibus optio eos autem saepe.Lorem ipsum dolor sit amet consectetur adipisicing elit.Quisquam quae deleniti illum maxime, aspernatur distinctio!Ducimus debitis non, voluptas id porro enim, eius vel, totam necessitatibus optio eos autem saepe.Lorem ipsum dolor sit amet consectetur adipisicing elit.Quisquam quae deleniti illum maxime, aspernatur distinctio!Ducimus debitis non, voluptas id porro enim, eius vel, totam necessitatibus optio eos autem saepe.Lorem ipsum dolor sit amet consectetur adipisicing elit.Quisquam quae deleniti illum maxime, aspernatur distinctio!Ducimus debitis non, voluptas id porro enim, eius vel, totam necessitatibus optio eos autem saepe. </Text>
+        < Text  style={styleExterno.fontStyle}> Lorem ipsum dolor sit amet consectetur adipisicing elit.Quisquam quae deleniti illum maxime, aspernatur distinctio!Ducimus debitis non, voluptas id porro enim, eius vel, totam necessitatibus optio eos autem saepe.Lorem ipsum dolor sit amet consectetur adipisicing elit.Quisquam quae deleniti illum maxime, aspernatur distinctio!Ducimus debitis non, voluptas id porro enim, eius vel, totam necessitatibus optio eos autem saepe.Lorem ipsum dolor sit amet consectetur adipisicing elit.Quisquam quae deleniti illum maxime, aspernatur distinctio!Ducimus debitis non, voluptas id porro enim, eius vel, totam necessitatibus optio eos autem saepe.Lorem ipsum dolor sit amet consectetur adipisicing elit.Quisquam quae deleniti illum maxime, aspernatur distinctio!Ducimus debitis non, voluptas id porro enim, eius vel, totam necessitatibus optio eos autem saepe.Lorem ipsum dolor sit amet consectetur adipisicing elit.Quisquam quae deleniti illum maxime, aspernatur distinctio!Ducimus debitis non, voluptas id porro enim, eius vel, totam necessitatibus optio eos autem saepe. </Text>
             < Image style = {
                styles.imageStyle
             }
