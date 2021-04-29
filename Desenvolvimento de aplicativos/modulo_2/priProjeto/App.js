@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View, Image, Button,ScrollView } from 'react-native';
+import { StyleSheet, Text, View, Image, Button,ScrollView , Platform} from 'react-native';
 import Header from './Componentes/Header.js';
 import Body from './Componentes/Body.js';
 export default class App extends React.Component {
@@ -9,12 +9,26 @@ export default class App extends React.Component {
     super(props);
     //console.warn("Aqui é um aviso");
     console.disableYellowBox = true;
-    
+    this.plataforma = Platform.OS;
+
     this.mostrarTexto = true;
     this.mostrarBotao = true;
   }
   mostrarConteudo = () => {
     var mostrarBody = 1;
+    var conteudo = "";
+    if (this.plataforma == "android")
+    {
+      conteudo = "Olá voce esta utilizando o android!";
+    }
+    else if (this.plataforma == "ios") {
+      conteudo = "Olá voce esta utilizando  IOS";
+    }
+    else if (this.plataforma == "web")
+    {
+      conteudo = "Olá voce esta utilizando  Web";
+      }
+    /*
         if (this.mostrarTexto && mostrarBody == 1) {
       return (
      
@@ -33,7 +47,12 @@ export default class App extends React.Component {
         </ScrollView>
 
       );
-    }
+    }*/
+    return (
+      <View>
+        <Text>{conteudo}</Text>
+      </View>
+    );
   }
   render() {
     return (
