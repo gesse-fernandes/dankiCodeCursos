@@ -7,6 +7,6 @@ import {
 export default StyleSheet.create({
     fontStyle: {
         fontSize: 30,
-        backgroundColor: 'green',
+      
     }
 });
