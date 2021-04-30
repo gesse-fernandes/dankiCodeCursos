@@ -3,6 +3,7 @@ import {
 } from 'expo-status-bar';
 import React from 'react';
 import {
+    Button,
     StyleSheet,
     Text,
     View
@@ -24,7 +25,8 @@ export default class Body extends React.Component{
     render() {
         return (
             <View>
-              <Text>Body</Text>
+                <Text>{ this.props.texto}</Text>
+                <Button title={ this.props.titulo}></Button>
             </View>  
         );
     }
