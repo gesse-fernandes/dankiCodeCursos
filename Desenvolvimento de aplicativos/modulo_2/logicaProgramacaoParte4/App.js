@@ -25,6 +25,10 @@ export default class App extends React.Component {
     }, 2000)
   }*/
   }
+  componentWillMount()
+  {
+    alert('antes de ser renderizado');
+  }
   alterarAba = (pagina) => {
       this.setState({ pagina: pagina })
     }

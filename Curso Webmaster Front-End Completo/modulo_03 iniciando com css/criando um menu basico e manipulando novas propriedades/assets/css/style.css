@@ -1,0 +1,20 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;   
+}
+.menu{
+    width: 900px;
+    
+    margin: 0 auto;
+  
+    text-align: center;
+}
+.menu  a{
+    border-right: 3px solid red;
+    text-decoration: none;
+    padding-right: 8px;
+    font-size: 20px;
+    color: orange;
+    margin: 0 10px;
+}
