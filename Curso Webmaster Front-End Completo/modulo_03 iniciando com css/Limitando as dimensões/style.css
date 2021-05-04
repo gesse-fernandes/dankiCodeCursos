@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    height: 100%;
+}
+/*
+.header{
+    min-width: 1280px
+    width: 100%;
+    height: 200px;
+    background: gray;
+}*/
+.article{
+    margin: 0 auto;
+    width: 1280px;
+    height: 10%;
+    min-height: 50%;
+    background: red;
+}
