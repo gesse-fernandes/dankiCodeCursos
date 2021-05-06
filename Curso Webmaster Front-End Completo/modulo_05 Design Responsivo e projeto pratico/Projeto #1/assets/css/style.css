@@ -18,6 +18,9 @@ html, body{
     margin: 0 auto;
     padding: 0 2%;
 }
+.clear{
+    clear: both;
+}
 .header{
     width: 100%;
     height: 60px;
@@ -147,7 +150,6 @@ html, body{
 .section-1{
     min-width: 1200px;
     padding: 90px 0;
-
 }
 .section-1 h2{
     text-align: center;
@@ -160,11 +162,17 @@ html, body{
 .container-section{
     text-align: center;
 }
+
 .container-single{
     float: left;
-    width: 33.3%;
+   /* display: inline-block;*/
+    margin-right: -4px;
+    width: 33.3333%;
     padding: 30px;
-}
+}/*
+.container-single:last-child{
+    margin-right: -10px;
+}*/
 .container-single p{
     display: inline-block;
     text-align: justify;
@@ -172,4 +180,13 @@ html, body{
 }
 .container-single img{
     width: 70px;
+}
+.footer{
+    border: 4px solid #888;
+    padding: 60px 0;
+    text-align: center;
+    color: #888;
+}
+.footer p{
+    margin-top: 8px;
 }
