@@ -14,7 +14,7 @@ html, body{
     font-family: "Open Sans";
 }
 .center{
-    width: 1280px;
+    width: 1200px;
     margin: 0 auto;
 }
 .header{
@@ -44,8 +44,10 @@ html, body{
  float: right;
     position: relative;
     top: -15px;
-    border: 8px solid #ccc;
+    border: 8px solid rgba(120, 120, 120, 0.5);
     background-color: white;
+    background-clip: padding-box;
+
 }
 .form h2{
     font-weight: normal;
@@ -96,4 +98,45 @@ html, body{
 .form input[type=submit]:hover
 {
     background-color: #322665;   
+}
+.container-list{
+    margin-top: 40px;
+    float: left;
+    padding: 30px;
+    width: 619px;
+    height: 270px;
+    background-color: rgba(33, 55, 67, 0.7);
+}
+.container-list ul{
+    list-style-position: inside;
+}
+.container-list ul li{
+    margin-top: 18px;
+    color: white;
+}
+.container-2{
+    padding: 70px 0;
+    background-color: #ddd;
+    text-align: center;
+}
+.container-2 h2{
+    
+    font-weight: normal;
+
+}
+.container-2 p{
+    margin: 15px 0;
+    width: 698px;
+    display: inline-block;
+    text-align: justify;
+}
+.arrow{
+    position: relative;
+    top: 60px;
+    left: 50%;
+    margin-left: -20px;
+    width: 40px;
+    height: 40px;
+    background-image: url('../images/arrow.png');
+    background-size: 100% 100%;
 }
